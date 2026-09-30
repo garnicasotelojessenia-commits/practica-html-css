@@ -1,0 +1,256 @@
+
+
+*{
+box-sizing: border-box;
+margin:0;/*ojo con esta etiqueta*/
+padding:0;
+
+}
+ 
+ body{
+     background-color:#faefd3;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 20px;
+    line-height: 1.5em; 
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#barra_lateral{
+   background-color:#f8c13f; 
+   color:#4D2A00;
+   padding:25px;
+   font-weight: bold;
+   width: 20%;
+   height: 700px;
+   border: 3px #fcff52 solid;
+   margin: 10px;
+    text-align: center;
+   
+   
+}
+.menu h1 {
+    margin: 0;
+    font-size: 35px;
+}
+/*CONTENIDO*/
+.Contenedor{
+    display:flex;
+    flex-direction:column; 
+    width: 80%;
+    height: 700px;
+    
+} 
+
+.fila {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+ .caja{
+   width: 25%;
+    height: 180px;
+    margin: 5px;
+    padding: 10px;
+
+}
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+     padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    width: 33%;
+    height: 300px;
+    background-color: #FFD444;
+    border: 5px solid #fcff52;
+    margin: 5px;
+    padding: 20px;
+   
+
+}
+.Contenedor article{
+   width: 33.3%; 
+   margin: 5px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 8px;
+   
+}
+.iconos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+#tarjeta1{
+  display: flex;
+    flex-direction: column;  
+}
+
+.iconos span {
+    margin: 10px 25px;
+}
+.texto {
+    width: 60%;
+    
+}
+
+.texto p {
+    text-align: justify;
+}
+
+.texto h2 {
+    font-size: 30px;
+}
+.imagen{
+    width: 40%;
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+#uno{   
+   background-image: url('../img/5.jpg');
+    background-size: cover;/*la imagen se adpate al tamaño del contenedor*/
+    background-repeat: no-repeat;/*si la imagen es muy pequeña, no se repita varias veces*/
+    border-radius: 15px;
+    border:  solid 3px #FFD444; 
+}
+#dos{
+    
+    background-color: #F9E6A8;
+    background-image:  linear-gradient(to bottom,#c4840d, #f1cd77  );
+    border:  solid 3px #FFD444;
+    border-radius: 15px;
+}
+#tres{
+     background-image: url('../img/4.jpg');
+    background-size: cover;/*la imagen se adpate al tamaño del contenedor*/
+    background-repeat: no-repeat;/*si la imagen es muy pequeña, no se repita varias veces*/
+    border-radius: 15px;
+    border:  solid 3px #FFD444; 
+
+}
+#cuatro{
+    background-color: #F9E6A8;
+    background-image:  linear-gradient(to top, #ec870a, #e7c269  );
+    border:  solid 3px #FFD444;
+    border-radius: 15px;
+
+}
+.caja img {
+     width: 100%;
+    height: 100%;
+}
+#cinco{
+    border-radius: 15px;
+    background-image:  linear-gradient(to top, #ec870a, #e7c269  );
+    border:  solid 3px #FFD444;   
+}
+#seis{
+   background-color: #F9E6A8;
+    background-image:  linear-gradient(to right, #F2A900, #F9E6A8  );
+    border:  solid 3px #FFD444;
+    border-radius: 15px;  
+}
+#siete{
+  background-image: url('../img/a55b38ab-9de9-42a5-b023-d5c3d1e199c6.jpg');
+    background-size: cover;/*la imagen se adpate al tamaño del contenedor*/
+    background-repeat: no-repeat;/*si la imagen es muy pequeña, no se repita varias veces*/
+    border-radius: 15px;
+    border:  solid 3px #FFD444;   
+}
+#ocho{
+   background-color: #F9E6A8;
+    background-image:  linear-gradient(to left, #aa7b0d, #F9E6A8  );
+    border:  solid 3px #FFD444;
+    border-radius: 15px;    
+}
+.tarjeta img{
+    width: 100%;
+    height: 100%;
+}
+#tarjeta1{
+   display: flex;
+    flex-direction: column; 
+}
+#tarjeta1 .texto {
+    width: 100%;
+    color: #4D2A00;
+}
+
+#tarjeta1 .texto p {
+    width: 100%;
+    text-align: center;
+    color: #4D2A00;
+}
+#tarjeta2{
+    display: flex;
+    flex-direction: row;
+}
+#tarjeta2 .texto {
+    width: 70%;
+}
+
+#tarjeta2 .imagen {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    height: 100px;
+    background-color: #e98708;
+    
+          
+}
+
+#iconos_footer {
+    width: 20%;
+    padding:20px;
+     height: 100px;
+     border-right: 3px solid #8a5a00;
+    
+}
+#iconos_footer span {
+    margin:20px;
+}
+.pie{
+     width: 80%;
+     height: 100px;
+    padding: 10px;
+     display: flex;
+    flex-direction: row;
+     box-sizing: border-box;
+    
+}
+.pie nav {
+    margin-left: 30px;
+}
+
+
+.pie nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+pie nav ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
