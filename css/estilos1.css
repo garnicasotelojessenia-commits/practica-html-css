@@ -215,13 +215,26 @@ main{
     flex-direction: row;
 }
 #tarjeta2 .texto {
-    width: 70%;
+    width: 65%;
+    padding: 10px;
+   text-align: left;
+}
+#tarjeta2 .texto p{
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
 }
 
 #tarjeta2 .imagen {
-    width: 40%;
-    display: block;
-    margin: auto;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#tarjeta2 .imagen img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 footer{
