@@ -265,7 +265,6 @@ footer{
     flex-direction: row;
     align-items: center;
     margin: 0;
-    margin-left: 50px;
     padding: 0;
 }
 .pie nav ul{
@@ -275,6 +274,7 @@ footer{
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    margin-left: 50px !important;
 }
 .pie nav ul li{
     display: inline-block ;
