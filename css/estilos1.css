@@ -257,10 +257,9 @@ footer{
      display: flex;
     flex-direction: row;
     alig-items:center
-    padding-left: 10px;
 }
 .pie > a{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .pie nav{
     display: flex;
@@ -277,11 +276,12 @@ footer{
     padding: 0 !important;
     margin: 0 !important;
 }
-.pie nav ul li:hover{
+.pie nav ul li{
     display: inline-block ;
     list-style: none;
-    margin: 0 12px ;
-    padding: 20px;
+    margin-left: 15pxpx ;
+    margin-right: 15px;
+    padding:5px 10px;
     font-family: Arial, sans-serif;
 }
 .pie nav ul li:hover{
