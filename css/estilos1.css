@@ -235,23 +235,31 @@ footer{
     alig-items:center
     padding-left: 10px;
 }
-.pie a{
-    margin-right: 10px;
-.pie nav {
-    margin:0;
+.pie > a{
+    margin-right: 15px;
 }
-.pie nav ul {
+.pie nav{
     display: flex;
     flex-direction: row;
-    padding: 0;
+    align-items: center;
     margin: 0;
-    list-style: none;
-    list-style-type: none;
+    padding: 0;
+}
+.pie nav ul{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.pie nav ul li{
+    display: inline-block !important;
+    list-style: none !important;
+    margin: 0 8px !important;
+    padding: 0 !important;
 }
 
-.pie nav ul li {
-    display: inline;
-    margin: 0 8px;
-}
+
 
 
