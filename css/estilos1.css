@@ -232,12 +232,13 @@ footer{
     padding: 10px;
      display: flex;
     flex-direction: row;
-    alig-items:center       
+    alig-items:center
+    padding-left: 10px;
 }
 .pie a{
     margin-right: 10px;
 .pie nav {
-    margin-left: 10px;
+    margin:0;
 }
 .pie nav ul {
     display: flex;
@@ -245,11 +246,12 @@ footer{
     padding: 0;
     margin: 0;
     list-style: none;
+    list-style-type: none;
 }
 
 .pie nav ul li {
-    margin-left: 8px;
-    margin-right: 8px;
+    display: inline;
+    margin: 0 8px;
 }
 
 
