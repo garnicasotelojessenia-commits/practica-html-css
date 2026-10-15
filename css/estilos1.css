@@ -33,7 +33,7 @@ main{
 }
 #barra_lateral h1{
     width: 100%;
-    margin: 0 0 15px 0;
+    margin: 15px 0;
     text-align: center;
 }
 
@@ -48,7 +48,8 @@ main{
 #barra_lateral ol li{
     width: 100%;
     text-align: center;
-    padding: 5px 0; 
+    padding: 8px 0;
+    margin: 0;
 }
 #barra_lateral ol li:hover{
     background-color: #FFD444;
@@ -263,7 +264,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
     padding: 0;
 }
 .pie nav ul{
@@ -277,8 +278,8 @@ footer{
 .pie nav ul li:hover{
     display: inline-block ;
     list-style: none;
-    margin: 0 8px ;
-    padding: 3px 8px;
+    margin: 0 12px ;
+    padding: 5px 10px;
 }
 .pie nav ul li:hover{
     background-color: #FFD444;
