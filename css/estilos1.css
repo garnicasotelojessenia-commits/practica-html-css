@@ -234,7 +234,7 @@ footer{
 }
 
 #iconos_footer {
-    width: 100%;
+    width: 20%;
     padding:20px;
      height: 100px;
      border-right: 3px solid #fcff52;
@@ -256,15 +256,13 @@ footer{
     flex-direction: row;
     alig-items:center
 }
-.pie > a{
-    margin: 30px;
-}
 .pie nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0;
     padding: 0;
+    flex: 1;
 }
 .pie nav ul{
     display: flex !important;
@@ -272,7 +270,7 @@ footer{
     align-items: center;
     list-style: none !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 0 0 auto !important;
 }
 .pie nav ul li{
     display: inline-block ;
