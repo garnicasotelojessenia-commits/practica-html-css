@@ -35,6 +35,7 @@ main{
     width: 100%;
     margin: 15px 0;
     text-align: center;
+    font-family: Verdana, sans-serif;
 }
 
 #barra_lateral ol{
@@ -50,6 +51,7 @@ main{
     text-align: center;
     padding: 8px 0;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 #barra_lateral ol li:hover{
     background-color: #FFD444;
@@ -280,6 +282,7 @@ footer{
     list-style: none;
     margin: 0 12px ;
     padding: 5px 10px;
+    font-family: Arial, sans-serif;
 }
 .pie nav ul li:hover{
     background-color: #FFD444;
